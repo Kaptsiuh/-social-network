@@ -1,3 +1,4 @@
+import { MyPosts } from "./MyPosts/MyPosts";
 import s from "./Profile.module.css";
 
 export const Profile = () => {
@@ -8,14 +9,7 @@ export const Profile = () => {
         alt="nature"
       />
       <div>ava + description</div>
-      <div>
-        My posts
-        <div>New post</div>
-        <div>
-          <div className={s.item}>post 1</div>
-          <div>post 2</div>
-        </div>
-      </div>
+      <MyPosts />
     </main>
   );
 };
