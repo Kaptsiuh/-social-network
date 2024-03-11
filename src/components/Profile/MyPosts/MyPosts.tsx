@@ -9,7 +9,6 @@ export const MyPosts = () => {
       <div>
         <Post message="Hi, how are u?" like={15} />
         <Post message="It's my first post" like={20} />
-        <Post />
       </div>
     </div>
   );
