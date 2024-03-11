@@ -7,6 +7,7 @@
   color: white;
 }
 
-.item.active {
+.item:active,
+.item:focus {
   color: gold;
 }
